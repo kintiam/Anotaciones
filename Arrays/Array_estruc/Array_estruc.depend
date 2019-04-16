@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1555374194 source:c:\users\alumno\desktop\nueva carpeta\anotaciones\arrays\array_estruc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ePersona.h"
+
+1555374156 c:\users\alumno\desktop\nueva carpeta\anotaciones\arrays\array_estruc\epersona.h
+
+1555374235 source:c:\users\alumno\desktop\nueva carpeta\anotaciones\arrays\array_estruc\epersona.c
+	<stdio.h>
+	<stdlib.h>
+	"ePersona.h"
+

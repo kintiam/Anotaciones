@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1555372911 source:c:\users\alumno\desktop\nueva carpeta\anotaciones\estructuradatos\estrucutradatos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ePersona.h"
+
+1555372910 c:\users\alumno\desktop\nueva carpeta\anotaciones\estructuradatos\estrucutradatos\epersona.h
+
+1555372953 source:c:\users\alumno\desktop\nueva carpeta\anotaciones\estructuradatos\estrucutradatos\epersona.c
+	<stdio.h>
+	<stdlib.h>
+	"ePersona.h"
+

@@ -1,0 +1,55 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "persona.h"
+
+int main(){
+    ePersona per;
+
+    per = alta(per);
+
+    system("cls");
+
+    mostrar(per);
+
+    return 0;
+}
+
+-----------------------
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "persona.h"
+
+ePersona alta(ePersona per){
+    printf("Apellido:\n");
+    fflush(stdin);
+    scanf("%s", per.apellido);
+
+    printf("Nombre:\n");
+    fflush(stdin);
+    scanf("%s", per.nombre);
+
+    printf("Edad:\n");
+    scanf("%d", &per.edad);
+
+    per.isEmpty = 0;
+
+    return per;
+}
+
+void mostrar(ePersona per){
+    printf("%s\t%s\t%d\t%d\n", per.apellido, per.nombre, per.edad, per.isEmpty);
+}
+
+---------------------------
+
+typedef struct{
+    char apellido[31];
+    char nombre[31];
+    int edad;
+    int isEmpty;
+}ePersona;
+
+ePersona alta(ePersona per);
+
+void mostrar(ePersona per);
