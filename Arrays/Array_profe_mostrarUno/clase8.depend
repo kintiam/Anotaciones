@@ -23,3 +23,16 @@
 	<stdlib.h>
 	"persona.h"
 
+1555457987 source:c:\users\alumno\desktop\proyecto\anotaciones\arrays\array_profe_mostraruno\main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+
+1555458478 c:\users\alumno\desktop\proyecto\anotaciones\arrays\array_profe_mostraruno\persona.h
+
+1555458200 source:c:\users\alumno\desktop\proyecto\anotaciones\arrays\array_profe_mostraruno\persona.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"persona.h"
+

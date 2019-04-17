@@ -4,12 +4,14 @@
 #define CANT 3
 
 
-int main(){
+int main()
+{
     ePersona pers[CANT];
 
     alta(pers, CANT);
-
     system("cls");
+
+    ordenar(pers,CANT);
 
     mostrarTodos(pers, CANT);
 
