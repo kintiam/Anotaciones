@@ -6,14 +6,27 @@
 
 int main()
 {
-    ePersona pers[CANT];
+   int i;
+   int opcion;
+   ePersona pers [CANT];
 
-    alta(pers, CANT);
-    system("cls");
+   for (i=0; i<CANT,i++)
+   {
+       strcpy(ePersona[i].isEmpty = 0);
+   }
+   while (opcion !=5)
+   {
+       Menu();
+       scanf("%d",&opcion);
 
-    ordenar(pers,CANT);
+       switch (opcion)
+       {
+       case 1 :
+        alta(pers, CANT);
+        break;
 
-    mostrarTodos(pers, CANT);
-
-    return 0;
+       case 2 :
+        baja
+       }
+   }
 }
